@@ -1,0 +1,60 @@
+.boxed-content {
+  @include hexRain;
+  background: #afafaf;
+  z-index: 10000;
+  position: relative;
+  width: 99.984%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background: #225f2f url('../images/stripe.png');
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  display: block;
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px 50px;
+}
+
+.page-content {
+  flex-grow: 1;
+  margin-right: 1px;
+}
+
+.page-content * {
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.register-container {
+  margin-top: 10px;
+}
+
+.role-label {
+  margin-right: 5px;
+
+}
+
+.paginator-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.no-pages-container {
+  text-align: center;
+}
+
+.create-first {
+  margin-top: 10px;
+}
