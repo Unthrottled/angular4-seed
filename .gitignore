@@ -63,3 +63,4 @@ typings/
 .idea/
 *.iml
 scripts/
+node_modules
